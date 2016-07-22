@@ -1,0 +1,34 @@
+{
+  "name": "aumberg_test_ambit",
+  "version": "0.0.1",
+  "main": "./ambit.js",
+  "license": "Unlicense",
+  "author": {
+    "name": "Alexander Umberg",
+    "email": "slovastick@mail.ru",
+    "url": "https://github.com/aumberg"
+  },
+  "dependencies": {
+    "selenium-webdriver": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/"
+  },
+  "bugs": {
+    "url": "https://github.com/aumberg/aumberg_test_ambit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aumberg/aumberg_test_ambit.git"
+  },
+  "keywords": [
+    "webdriver",
+    "saucelabs",
+    "selenium",
+    "mocha",
+    "test"
+  ]
+}
